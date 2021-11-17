@@ -1,0 +1,43 @@
+@media only screen and (max-width:1200px){
+    html{
+        font-size: 16px;
+    }
+    .heading-main-box{
+       transform: translate(-35%,-50%);
+    }
+}
+@media only screen and (max-width:1023px){
+    .heading-main-box{
+        transform: translate(-25%,-50%);
+     }
+     .main-nav{
+         margin-right: 15px;
+         margin-top: 40px;
+     }
+     .main-nav li{
+         margin-right: 10px;
+     }
+     .product-section .btn{
+        margin-left: 50px;
+    }
+   
+}
+@media only screen and (max-width:767px) {
+    .heading-main-box{
+        transform: translate(-15%,-50%);
+     }
+     .main-nav{
+       visibility: hidden;
+    }
+     .col{
+         width:100%;
+     }
+     .about-picture img{
+         width: 70%;
+     }
+}
+@media only screen and (max-width:480px) {
+    html{
+        font-size: 5px;
+    }
+}
